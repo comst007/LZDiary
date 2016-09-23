@@ -10,18 +10,34 @@
 		CB3C09151D8006A500C8C863 /* LZDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C09141D8006A500C8C863 /* LZDiaryTests.m */; };
 		CB3C09201D8006A500C8C863 /* LZDiaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C091F1D8006A500C8C863 /* LZDiaryUITests.m */; };
 		CB3C09471D800EB400C8C863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C09301D800EB400C8C863 /* AppDelegate.m */; };
-		CB3C09491D800EB400C8C863 /* LZDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB3C093D1D800EB400C8C863 /* LZDiary.xcdatamodeld */; };
 		CB3C094A1D800EB400C8C863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3C09401D800EB400C8C863 /* Assets.xcassets */; };
 		CB3C094B1D800EB400C8C863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3C09421D800EB400C8C863 /* Main.storyboard */; };
 		CB3C094D1D800EB400C8C863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C09461D800EB400C8C863 /* main.m */; };
 		CB3C09501D800FAF00C8C863 /* NSString+ChineseNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3C094F1D800FAF00C8C863 /* NSString+ChineseNumber.m */; };
+		CB4274121D9482D900A48CE1 /* Diary+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB42740F1D9482D900A48CE1 /* Diary+CoreDataClass.m */; };
+		CB4274131D9482D900A48CE1 /* Diary+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4274111D9482D900A48CE1 /* Diary+CoreDataProperties.m */; };
+		CB4274161D94975B00A48CE1 /* LZtmpItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4274151D94975B00A48CE1 /* LZtmpItem.m */; };
+		CB4274191D94AF0D00A48CE1 /* LZTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4274181D94AF0D00A48CE1 /* LZTipView.m */; };
+		CB8707EB1D94758D009498F0 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB8707E91D94758D009498F0 /* Diary.xcdatamodeld */; };
+		CB9871741D9175E300EC5A57 /* LZYearController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871731D9175E300EC5A57 /* LZYearController.m */; };
+		CB9871771D917E1D00EC5A57 /* UIButton+LZDiaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871761D917E1D00EC5A57 /* UIButton+LZDiaryButton.m */; };
+		CB98717A1D9185AF00EC5A57 /* LZYearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871791D9185AF00EC5A57 /* LZYearCell.m */; };
+		CB98717D1D91AF1000EC5A57 /* LZDiaryAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98717C1D91AF1000EC5A57 /* LZDiaryAnimator.m */; };
+		CB9871801D91C6DD00EC5A57 /* LZMonthController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98717F1D91C6DD00EC5A57 /* LZMonthController.m */; };
+		CB9871831D92547A00EC5A57 /* LZMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871821D92547A00EC5A57 /* LZMonthCell.m */; };
+		CB9871861D92589F00EC5A57 /* LZComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871851D92589F00EC5A57 /* LZComposeController.m */; };
+		CB9871891D92DF8E00EC5A57 /* LZLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871881D92DF8E00EC5A57 /* LZLocation.m */; };
+		CB98718F1D931AE600EC5A57 /* LZShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98718E1D931AE600EC5A57 /* LZShowController.m */; };
+		CB9871921D931EEA00EC5A57 /* DiaryTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = CB9871911D931EEA00EC5A57 /* DiaryTemplate.html */; };
+		CB9871951D93D5A700EC5A57 /* UIWebView+LZScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871941D93D5A700EC5A57 /* UIWebView+LZScreenShot.m */; };
+		CB9871981D93DDA900EC5A57 /* NSNumber+chineseNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9871971D93DDA900EC5A57 /* NSNumber+chineseNumber.m */; };
+		CB98719B1D93E08C00EC5A57 /* LZItemStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98719A1D93E08C00EC5A57 /* LZItemStorage.m */; };
 		CBDE37BD1D9124DB00448F3E /* LZVerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE37BC1D9124DB00448F3E /* LZVerticalLabel.m */; };
 		CBDE37C41D91322000448F3E /* LZHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE37C31D91322000448F3E /* LZHomeController.m */; };
 		CBDE37C71D91367E00448F3E /* LZDiaryLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE37C61D91367E00448F3E /* LZDiaryLayout.m */; };
 		CBDE37CA1D9138DF00448F3E /* LZHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDE37C91D9138DF00448F3E /* LZHomeCell.m */; };
 		CBDE37CB1D91433900448F3E /* Wyue-GutiFangsong-NC_deliverable.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBDE37C11D912F4500448F3E /* Wyue-GutiFangsong-NC_deliverable.otf */; };
 		CBDE37CC1D91434200448F3E /* TpldKhangXiDictTrial.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBDE37BF1D912E7400448F3E /* TpldKhangXiDictTrial.otf */; };
-		CBDE37CD1D91434B00448F3E /* LZDiary.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = CB3C093D1D800EB400C8C863 /* LZDiary.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +67,47 @@
 		CB3C09211D8006A500C8C863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3C092F1D800EB400C8C863 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB3C09301D800EB400C8C863 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB3C093E1D800EB400C8C863 /* LZDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZDiary.xcdatamodel; sourceTree = "<group>"; };
 		CB3C09401D800EB400C8C863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB3C09431D800EB400C8C863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB3C09451D800EB400C8C863 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB3C09461D800EB400C8C863 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB3C094E1D800FAF00C8C863 /* NSString+ChineseNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChineseNumber.h"; sourceTree = "<group>"; };
 		CB3C094F1D800FAF00C8C863 /* NSString+ChineseNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChineseNumber.m"; sourceTree = "<group>"; };
+		CB42740E1D9482D900A48CE1 /* Diary+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Diary+CoreDataClass.h"; path = "LZDiary/Classes/Models/Diary+CoreDataClass.h"; sourceTree = "<group>"; };
+		CB42740F1D9482D900A48CE1 /* Diary+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Diary+CoreDataClass.m"; path = "LZDiary/Classes/Models/Diary+CoreDataClass.m"; sourceTree = "<group>"; };
+		CB4274101D9482D900A48CE1 /* Diary+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Diary+CoreDataProperties.h"; path = "LZDiary/Classes/Models/Diary+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CB4274111D9482D900A48CE1 /* Diary+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Diary+CoreDataProperties.m"; path = "LZDiary/Classes/Models/Diary+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CB4274141D94975B00A48CE1 /* LZtmpItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZtmpItem.h; sourceTree = "<group>"; };
+		CB4274151D94975B00A48CE1 /* LZtmpItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZtmpItem.m; sourceTree = "<group>"; };
+		CB4274171D94AF0D00A48CE1 /* LZTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTipView.h; sourceTree = "<group>"; };
+		CB4274181D94AF0D00A48CE1 /* LZTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTipView.m; sourceTree = "<group>"; };
+		CB8707EA1D94758D009498F0 /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
+		CB8707EC1D94760D009498F0 /* LZDiary-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZDiary-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB9871721D9175E300EC5A57 /* LZYearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYearController.h; sourceTree = "<group>"; };
+		CB9871731D9175E300EC5A57 /* LZYearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYearController.m; sourceTree = "<group>"; };
+		CB9871751D917E1D00EC5A57 /* UIButton+LZDiaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZDiaryButton.h"; sourceTree = "<group>"; };
+		CB9871761D917E1D00EC5A57 /* UIButton+LZDiaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LZDiaryButton.m"; sourceTree = "<group>"; };
+		CB9871781D9185AF00EC5A57 /* LZYearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYearCell.h; sourceTree = "<group>"; };
+		CB9871791D9185AF00EC5A57 /* LZYearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYearCell.m; sourceTree = "<group>"; };
+		CB98717B1D91AF1000EC5A57 /* LZDiaryAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDiaryAnimator.h; sourceTree = "<group>"; };
+		CB98717C1D91AF1000EC5A57 /* LZDiaryAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDiaryAnimator.m; sourceTree = "<group>"; };
+		CB98717E1D91C6DD00EC5A57 /* LZMonthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMonthController.h; sourceTree = "<group>"; };
+		CB98717F1D91C6DD00EC5A57 /* LZMonthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMonthController.m; sourceTree = "<group>"; };
+		CB9871811D92547A00EC5A57 /* LZMonthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMonthCell.h; sourceTree = "<group>"; };
+		CB9871821D92547A00EC5A57 /* LZMonthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMonthCell.m; sourceTree = "<group>"; };
+		CB9871841D92589F00EC5A57 /* LZComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZComposeController.h; sourceTree = "<group>"; };
+		CB9871851D92589F00EC5A57 /* LZComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZComposeController.m; sourceTree = "<group>"; };
+		CB9871871D92DF8E00EC5A57 /* LZLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLocation.h; sourceTree = "<group>"; };
+		CB9871881D92DF8E00EC5A57 /* LZLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLocation.m; sourceTree = "<group>"; };
+		CB98718D1D931AE600EC5A57 /* LZShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZShowController.h; sourceTree = "<group>"; };
+		CB98718E1D931AE600EC5A57 /* LZShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZShowController.m; sourceTree = "<group>"; };
+		CB9871911D931EEA00EC5A57 /* DiaryTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DiaryTemplate.html; sourceTree = "<group>"; };
+		CB9871931D93D5A700EC5A57 /* UIWebView+LZScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LZScreenShot.h"; sourceTree = "<group>"; };
+		CB9871941D93D5A700EC5A57 /* UIWebView+LZScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+LZScreenShot.m"; sourceTree = "<group>"; };
+		CB9871961D93DDA900EC5A57 /* NSNumber+chineseNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+chineseNumber.h"; sourceTree = "<group>"; };
+		CB9871971D93DDA900EC5A57 /* NSNumber+chineseNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+chineseNumber.m"; sourceTree = "<group>"; };
+		CB9871991D93E08C00EC5A57 /* LZItemStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZItemStorage.h; sourceTree = "<group>"; };
+		CB98719A1D93E08C00EC5A57 /* LZItemStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZItemStorage.m; sourceTree = "<group>"; };
 		CBDE37BB1D9124DB00448F3E /* LZVerticalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVerticalLabel.h; sourceTree = "<group>"; };
 		CBDE37BC1D9124DB00448F3E /* LZVerticalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZVerticalLabel.m; sourceTree = "<group>"; };
 		CBDE37BF1D912E7400448F3E /* TpldKhangXiDictTrial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TpldKhangXiDictTrial.otf; sourceTree = "<group>"; };
@@ -98,10 +148,15 @@
 		CB3C08EB1D8006A500C8C863 = {
 			isa = PBXGroup;
 			children = (
+				CB42740E1D9482D900A48CE1 /* Diary+CoreDataClass.h */,
+				CB42740F1D9482D900A48CE1 /* Diary+CoreDataClass.m */,
+				CB4274101D9482D900A48CE1 /* Diary+CoreDataProperties.h */,
+				CB4274111D9482D900A48CE1 /* Diary+CoreDataProperties.m */,
 				CB3C08F61D8006A500C8C863 /* LZDiary */,
 				CB3C09131D8006A500C8C863 /* LZDiaryTests */,
 				CB3C091E1D8006A500C8C863 /* LZDiaryUITests */,
 				CB3C08F51D8006A500C8C863 /* Products */,
+				CB8707EC1D94760D009498F0 /* LZDiary-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +228,14 @@
 			children = (
 				CBDE37C21D91322000448F3E /* LZHomeController.h */,
 				CBDE37C31D91322000448F3E /* LZHomeController.m */,
+				CB9871721D9175E300EC5A57 /* LZYearController.h */,
+				CB9871731D9175E300EC5A57 /* LZYearController.m */,
+				CB98717E1D91C6DD00EC5A57 /* LZMonthController.h */,
+				CB98717F1D91C6DD00EC5A57 /* LZMonthController.m */,
+				CB9871841D92589F00EC5A57 /* LZComposeController.h */,
+				CB9871851D92589F00EC5A57 /* LZComposeController.m */,
+				CB98718D1D931AE600EC5A57 /* LZShowController.h */,
+				CB98718E1D931AE600EC5A57 /* LZShowController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,6 +243,8 @@
 		CB3C09341D800EB400C8C863 /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				CB9871991D93E08C00EC5A57 /* LZItemStorage.h */,
+				CB98719A1D93E08C00EC5A57 /* LZItemStorage.m */,
 			);
 			path = Globals;
 			sourceTree = "<group>";
@@ -191,6 +256,14 @@
 				CBDE37C61D91367E00448F3E /* LZDiaryLayout.m */,
 				CBDE37C81D9138DF00448F3E /* LZHomeCell.h */,
 				CBDE37C91D9138DF00448F3E /* LZHomeCell.m */,
+				CB9871781D9185AF00EC5A57 /* LZYearCell.h */,
+				CB9871791D9185AF00EC5A57 /* LZYearCell.m */,
+				CB98717B1D91AF1000EC5A57 /* LZDiaryAnimator.h */,
+				CB98717C1D91AF1000EC5A57 /* LZDiaryAnimator.m */,
+				CB9871811D92547A00EC5A57 /* LZMonthCell.h */,
+				CB9871821D92547A00EC5A57 /* LZMonthCell.m */,
+				CB4274141D94975B00A48CE1 /* LZtmpItem.h */,
+				CB4274151D94975B00A48CE1 /* LZtmpItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +294,14 @@
 			children = (
 				CB3C094E1D800FAF00C8C863 /* NSString+ChineseNumber.h */,
 				CB3C094F1D800FAF00C8C863 /* NSString+ChineseNumber.m */,
+				CB9871751D917E1D00EC5A57 /* UIButton+LZDiaryButton.h */,
+				CB9871761D917E1D00EC5A57 /* UIButton+LZDiaryButton.m */,
+				CB9871871D92DF8E00EC5A57 /* LZLocation.h */,
+				CB9871881D92DF8E00EC5A57 /* LZLocation.m */,
+				CB9871931D93D5A700EC5A57 /* UIWebView+LZScreenShot.h */,
+				CB9871941D93D5A700EC5A57 /* UIWebView+LZScreenShot.m */,
+				CB9871961D93DDA900EC5A57 /* NSNumber+chineseNumber.h */,
+				CB9871971D93DDA900EC5A57 /* NSNumber+chineseNumber.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -230,6 +311,8 @@
 			children = (
 				CBDE37BB1D9124DB00448F3E /* LZVerticalLabel.h */,
 				CBDE37BC1D9124DB00448F3E /* LZVerticalLabel.m */,
+				CB4274171D94AF0D00A48CE1 /* LZTipView.h */,
+				CB4274181D94AF0D00A48CE1 /* LZTipView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +320,7 @@
 		CB3C093B1D800EB400C8C863 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CB9871901D931EEA00EC5A57 /* htmls */,
 				CBDE37BE1D912E5600448F3E /* fonts */,
 				CB3C093C1D800EB400C8C863 /* coredata */,
 				CB3C093F1D800EB400C8C863 /* images */,
@@ -248,7 +332,7 @@
 		CB3C093C1D800EB400C8C863 /* coredata */ = {
 			isa = PBXGroup;
 			children = (
-				CB3C093D1D800EB400C8C863 /* LZDiary.xcdatamodeld */,
+				CB8707E91D94758D009498F0 /* Diary.xcdatamodeld */,
 			);
 			path = coredata;
 			sourceTree = "<group>";
@@ -276,6 +360,14 @@
 				CB3C09461D800EB400C8C863 /* main.m */,
 			);
 			path = Surpporting;
+			sourceTree = "<group>";
+		};
+		CB9871901D931EEA00EC5A57 /* htmls */ = {
+			isa = PBXGroup;
+			children = (
+				CB9871911D931EEA00EC5A57 /* DiaryTemplate.html */,
+			);
+			path = htmls;
 			sourceTree = "<group>";
 		};
 		CBDE37BE1D912E5600448F3E /* fonts */ = {
@@ -355,6 +447,7 @@
 					CB3C08F31D8006A500C8C863 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 6RLR7J2EXS;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					CB3C090F1D8006A500C8C863 = {
@@ -392,8 +485,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDE37CD1D91434B00448F3E /* LZDiary.xcdatamodeld in Resources */,
 				CBDE37CC1D91434200448F3E /* TpldKhangXiDictTrial.otf in Resources */,
+				CB9871921D931EEA00EC5A57 /* DiaryTemplate.html in Resources */,
 				CBDE37CB1D91433900448F3E /* Wyue-GutiFangsong-NC_deliverable.otf in Resources */,
 				CB3C094A1D800EB400C8C863 /* Assets.xcassets in Resources */,
 				CB3C094B1D800EB400C8C863 /* Main.storyboard in Resources */,
@@ -421,14 +514,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9871741D9175E300EC5A57 /* LZYearController.m in Sources */,
 				CBDE37C41D91322000448F3E /* LZHomeController.m in Sources */,
 				CBDE37BD1D9124DB00448F3E /* LZVerticalLabel.m in Sources */,
-				CB3C09491D800EB400C8C863 /* LZDiary.xcdatamodeld in Sources */,
+				CB9871951D93D5A700EC5A57 /* UIWebView+LZScreenShot.m in Sources */,
+				CB4274191D94AF0D00A48CE1 /* LZTipView.m in Sources */,
+				CB4274131D9482D900A48CE1 /* Diary+CoreDataProperties.m in Sources */,
+				CB98719B1D93E08C00EC5A57 /* LZItemStorage.m in Sources */,
 				CB3C094D1D800EB400C8C863 /* main.m in Sources */,
+				CB98717A1D9185AF00EC5A57 /* LZYearCell.m in Sources */,
+				CB9871891D92DF8E00EC5A57 /* LZLocation.m in Sources */,
 				CB3C09471D800EB400C8C863 /* AppDelegate.m in Sources */,
 				CBDE37C71D91367E00448F3E /* LZDiaryLayout.m in Sources */,
+				CB9871861D92589F00EC5A57 /* LZComposeController.m in Sources */,
 				CBDE37CA1D9138DF00448F3E /* LZHomeCell.m in Sources */,
+				CB98718F1D931AE600EC5A57 /* LZShowController.m in Sources */,
+				CB9871801D91C6DD00EC5A57 /* LZMonthController.m in Sources */,
+				CB4274161D94975B00A48CE1 /* LZtmpItem.m in Sources */,
 				CB3C09501D800FAF00C8C863 /* NSString+ChineseNumber.m in Sources */,
+				CB9871981D93DDA900EC5A57 /* NSNumber+chineseNumber.m in Sources */,
+				CB4274121D9482D900A48CE1 /* Diary+CoreDataClass.m in Sources */,
+				CB98717D1D91AF1000EC5A57 /* LZDiaryAnimator.m in Sources */,
+				CB8707EB1D94758D009498F0 /* Diary.xcdatamodeld in Sources */,
+				CB9871831D92547A00EC5A57 /* LZMonthCell.m in Sources */,
+				CB9871771D917E1D00EC5A57 /* UIButton+LZDiaryButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,15 +673,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6RLR7J2EXS;
 				INFOPLIST_FILE = LZDiary/Surpporting/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comst1314.LZDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LZDiary-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -582,15 +695,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6RLR7J2EXS;
 				INFOPLIST_FILE = LZDiary/Surpporting/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comst1314.LZDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LZDiary-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -685,13 +801,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CB3C093D1D800EB400C8C863 /* LZDiary.xcdatamodeld */ = {
+		CB8707E91D94758D009498F0 /* Diary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CB3C093E1D800EB400C8C863 /* LZDiary.xcdatamodel */,
+				CB8707EA1D94758D009498F0 /* Diary.xcdatamodel */,
 			);
-			currentVersion = CB3C093E1D800EB400C8C863 /* LZDiary.xcdatamodel */;
-			path = LZDiary.xcdatamodeld;
+			currentVersion = CB8707EA1D94758D009498F0 /* Diary.xcdatamodel */;
+			path = Diary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

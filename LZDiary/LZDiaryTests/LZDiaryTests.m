@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "NSString+ChineseNumber.h"
-
+#import "LZItemStorage.h"
 @interface LZDiaryTests : XCTestCase
 
 @end
@@ -29,9 +29,10 @@
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    NSString *res = [@"0123456789" parseToChineseNumber];
+    NSArray *res = [[LZItemStorage sharedItemStorage] allYear];
     
-    NSLog(@"%@", res);
+    
+    NSLog(@"hello");
 }
 
 - (void)testPerformanceExample {

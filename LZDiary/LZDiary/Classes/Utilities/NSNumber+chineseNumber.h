@@ -1,14 +1,14 @@
 //
-//  NSString+ChineseNumber.h
+//  NSNumber+chineseNumber.h
 //  LZDiary
 //
-//  Created by comst on 16/9/7.
+//  Created by comst on 16/9/22.
 //  Copyright © 2016年 com.comst1314. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (ChineseNumber)
+@interface NSNumber (chineseNumber)
 - (NSString *)parseToChineseNumber;
 
 - (NSString *)parseToChineseNumberWithUnit;

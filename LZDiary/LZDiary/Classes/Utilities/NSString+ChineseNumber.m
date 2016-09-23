@@ -78,4 +78,25 @@
     return @"";
 }
 
+- (NSString *)parseToChineseNumberWithUnit{
+    
+    if (self.length == 1) {
+        
+        return [self parseToChineseNumber];
+    }
+    
+    NSArray *unitArr = @[@"十", @""];
+    
+    NSInteger count = self.length;
+    NSString *res = @"";
+    
+    for (NSInteger index = 0; index < count; index ++) {
+        NSString *subStr = [self substringWithRange:NSMakeRange(index, 1)];
+        if (![subStr isEqualToString:@"0"] || index + 1 != count) {
+            res = [NSString stringWithFormat:@"%@%@%@", res, [subStr parseToChineseNumber], unitArr[index]];
+        }
+        
+    }
+    return res;
+}
 @end
